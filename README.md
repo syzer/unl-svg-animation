@@ -6,7 +6,7 @@ Svg animation using vivus
 ```bash
 git clone git@github.com:syzer/unl-svg-animation.git
 cd $_
-sudo npm i -g serve bower
+sudo npm install -g serve bower
 bower install
 serve ./
 ```
