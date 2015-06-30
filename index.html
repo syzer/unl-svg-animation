@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uml to svg</title>
+    <script src="bower_components/vivus/dist/vivus.min.js"></script>
+</head>
+<body>
+<h3>Awesome Uml below:</h3>
+<div id="diagram" style="width: 500px; height: 500px"></div>
+<script>
+    function done() {
+
+    }
+    var diagram = new Vivus('diagram', {type: 'delayed', duration: 100, file: 'resources/diagram.svg'}, done);
+</script>
+</body>
+</html>
